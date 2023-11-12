@@ -1,0 +1,29 @@
+.login {
+    display: grid;
+    background-color: black;
+    height: 100vh;
+    /* place-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.login > img {
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+  
+.login > a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 99px;
+    font-weight: 700;
+    background-color: #1db954;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+}

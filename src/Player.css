@@ -1,0 +1,12 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+  }
+  
+  .player_body {
+    display: flex;
+    flex-grow: 1;
+  }
+  

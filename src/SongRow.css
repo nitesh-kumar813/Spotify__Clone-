@@ -1,0 +1,55 @@
+.songRow {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  color: white;
+  border-radius: 8px;
+  height: 56px;
+  margin-bottom: 7px;
+}
+
+.songRow:hover {
+  cursor: pointer;
+  background-color: rgb(35, 28, 28);
+  opacity: 0.8;
+}
+
+.songRow_info {
+  margin-left: 20px;
+}
+
+.songRow_info > h1 {
+  font-size: 16px;
+}
+
+.songRow_info > p {
+  font-size: 14px;
+  color: rgb(140, 137, 137);
+}
+
+.songRow_album {
+  height: 45px;
+  width: 45px;
+
+}
+.songRow:hover > .songRow_info > p {
+    color: white;
+}
+.songRow_info:hover > h1 {
+   text-decoration: underline;
+   text-underline-offset: 2px;
+}
+
+@media (max-width: 1005px){
+    .songRow_info > p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    .songRow{
+        margin-right: 0;
+    }
+  }
